@@ -30,12 +30,12 @@ def find_factors(n):
 
     while n % 2 == 0:
         l.append(2)
-        n = n / 2
+        n = n // 2
 
     r = rho(n)
     f = n if r == 1 else r
     l.append(f)
-    n = n / r
+    n = n // r
 
     print('R %d' % f)
 
