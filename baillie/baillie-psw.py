@@ -2880,7 +2880,7 @@ def isqrt(n):
     if n < 0:
         raise ValueError('Square root is not defined for negative numbers.')
     # return int(sqrt(n) + 0.5)
-    return int((n ** 1 / 2) + 0.5)
+    return int((n ** (1/2)) + 0.5)
 
 
 def is_square(n):
